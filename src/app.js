@@ -12,7 +12,7 @@ app.use("/users", userRouter);
 app.use("/login", loginRouter);
 
 app.listen(PORT, () => {
-  console.log(`server is running at port ${PORT}`);
+  console.log(`Server is running at port ${PORT}`);
 });
 
 export default app;
